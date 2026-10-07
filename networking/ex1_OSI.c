@@ -27,6 +27,7 @@ int main(void) {
 
     /* TODO (your turn): print the layers from 7 down to 1. */
     return 0;
+<<<<<<< HEAD
 }
  char)value);
     printf("\n");
@@ -46,3 +47,6 @@ int main(void) {
     return 0;
 }
 
+=======
+}
+>>>>>>> 07dbadd (Update OSI Exercise 1)
