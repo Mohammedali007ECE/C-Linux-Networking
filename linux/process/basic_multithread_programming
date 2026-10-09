@@ -2,7 +2,7 @@
 #include<pthread.h>
 #include<unistd.h>
 
-void *mytask(void* arg){
+void* mytask(void* arg){
 printf("hello from the new thread");
 return NULL;
 }
