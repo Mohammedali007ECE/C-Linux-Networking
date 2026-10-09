@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<pthread.h>
+#include<unistd.h>
+
+void *mytask(void* arg){
+printf("hello from the new thread");
+return NULL;
+}
+
+int main() {
+pthread_t t;
+pthread_create(&t,NULL,my_task,NULL);
+pthread_join(t,NULL);
+printf("hello from the main thread);
+}
